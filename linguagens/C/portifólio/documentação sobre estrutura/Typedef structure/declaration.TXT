@@ -1,0 +1,115 @@
+Declaration
+___________
+The general syntax for a struct declaration in C is:
+
+struct tag_name {
+   type member1;
+   type member2;
+   /* declare as many members as desired, but the entire structure size must be known to the compiler. */
+};
+Here tag_name is optional in some contexts.
+
+Such a struct declaration may also appear in the context of a typedef declaration of a type alias or the declaration or definition of a variable:
+
+typedef struct tag_name {
+   type member1;
+   type member2;
+} struct_alias; // alias = psedônimo ou codinome; use para ter outra forma de se referir a struct
+
+
+
+
+
+
+
+
+Initialization
+______________
+
+There are three ways to initialize a structure. For the struct type
+
+/* Declare the struct with integer members x, y */
+struct point {
+   int    x;
+   int    y;
+};
+C89-style initializers are used when contiguous members may be given.[6]
+
+/* Define a variable p of type point, and initialize its first two members in place */
+struct point p = { 1, 2 };
+For non contiguous or out of order members list, designated initializer style[7] may be used
+
+/* Define a variable p of type point, and set members using designated initializers*/
+struct point p = { .y = 2, .x = 1 };
+If an initializer is given or if the object is statically allocated, omitted elements are initialized to 0.[8]
+
+A third way of initializing a structure is to copy the value of an existing object of the same type
+
+/* Define a variable q of type point, and set members to the same values as those of p */
+struct point q = p;
+
+
+
+
+
+
+
+Assignment
+__________
+A struct may be assigned to another struct. A compiler might use memcpy() to perform such an assignment.
+
+struct point {
+    int x;
+    int y;
+};
+
+int main(void)
+{
+    struct point p = { 1, 3 };        /* initialized variable */
+    struct point q;                   /* uninitialized */
+    q = p;                     /* copy member values from p into q */
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+Pointers to struct
+__________________
+
+
+Pointers can be used to refer to a struct by its address. This is useful for passing structs to a function. The pointer can be dereferenced using the * operator. The -> operator dereferences the pointer to struct (left operand) and then accesses the value of a member of the struct (right operand).
+
+struct point {
+   int x;
+   int y;
+};
+struct point my_point = { 3, 7 };
+struct point *p = &my_point;  /* p is a pointer to my_point */
+(*p).x = 8;                   /* set the first member of the struct */
+p->x = 8;                     /* equivalent method to set the first member of the struct */
+
+
+
+
+
+
+
+
+typedef
+_______
+Main article: typedef
+Typedefs can be used as shortcuts, for example:
+
+typedef struct {
+   int    account_number;
+   char   *first_name;
+   char   *last_name;
+   float  balance;
+} account;

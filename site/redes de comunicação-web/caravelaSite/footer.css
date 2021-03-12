@@ -1,0 +1,6 @@
+.footer{
+	border:0; 
+	height:100%; 
+	width:100%;
+	background-image: linear-gradient(to right, rgba(14,57,90,1), rgba(14,57,73,1));
+}

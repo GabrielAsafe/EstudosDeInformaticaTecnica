@@ -1,0 +1,45 @@
+<!--
+inserção de elementos multimidia em html: vídeo interno, externo e híbrido.
+Criação de um canal para disposição de vídeo híbrido. 
+-->
+
+<html>
+	<head>
+		<title>Midia</title>
+		<meta charset ="utf-8">
+		<meta http-equiv="refresh" content="">
+		
+	</head>
+	
+	<body>
+	
+	<table border="solid" height="285" width="400" align="center">
+		<tr>
+			<td height="285" width="400">
+				<h1>externo</h1>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/yurMcJapX_I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</td>
+			
+			<td>
+				<h1>hibrido</h1>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Wqz--my6WO0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</td>
+			
+		</tr>
+			<td colspan="2">
+				<h1>Interno</h1>
+				<video  controls >
+					  <source src="videos/filme.mp4" type="video/mp4" align="center">
+					  <source src="videos/filme.ogg" type="video/ogg" align="center">
+					  <source src="videos/filme.avi" type="video/avi" align="center">
+					  Your browser does not support the video tag.
+				</video>
+			</td>
+		<tr>
+		</tr>
+	</table>
+	
+		
+	</body>
+	
+</html>

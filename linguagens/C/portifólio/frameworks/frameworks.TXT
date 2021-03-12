@@ -1,0 +1,6 @@
+Uma framework é uma ferramenta de captura de funcionalidades em comun entre aplicações quando as mesmas têm algo em comum.
+
+
+ou seja, é o que faz a ligaçõ entre elas.
+
+http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/frame/oque.htm

@@ -1,0 +1,16 @@
+o ponteiro, a princípio, aponta diretamente para um endereço e não para a quem mora nele
+
+int A tem um endereço mas não tem um valor   ex endereço 1000
+int *p tem um endereço mas não tem um valor 	ex endereço 2000
+
+se int a = 10 e int *p = endereço de a    (int a = 10; *p=&a;) 
+ex a=10			*p=1000
+   endereço:1000	endereço=2000
+se no indereço de A se tornao 1000 o valor de *p é = 1000
+
+se eu alterar *p dizendo que ele vale 5 o valor de A passa a ser 5 
+
+porque *p aponta para o endereço de A e o que tem no endereço de uma casa ? quem mora nela ! e nocaso quem mora em a era 10 mas como o *p passou a 5, logo o A é 5
+
+
+
