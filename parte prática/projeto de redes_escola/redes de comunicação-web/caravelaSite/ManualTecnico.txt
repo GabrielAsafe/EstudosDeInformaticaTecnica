@@ -1,0 +1,67 @@
+Este é o manual técnico das estruturas de html e css que usei
+
+<p>
+
+Todas os vídeos do youtube tem a estrutura a seguir 
+	<div align="center"width="90%" height="500px">
+
+	</div>
+
+
+Todos os textos tem a seguinte estrutura
+
+estrutura com título
+<br>
+<br>
+<h3></h3>
+<br>
+<br>																
+<p>
+</p>
+
+
+Estruturas com subtítulo
+
+<h3></h3>
+<br>
+<br>																
+<p>
+</p>
+<br>
+<br>
+<h4></h4>
+<br>
+<br>
+<p>
+</p>
+
+
+Estrutura com citação de fonte
+<br>
+<br>
+<h3></h3>
+<br>
+<br>																
+<p>
+</p>
+<h5></h5>	
+
+
+
+---------------------------------------------------------------------------
+
+Estilização no próprio html
+
+H3  titulo geral
+H4 sub título
+h5 citações e links	
+
+
+--------------------------------------------------------------------------
+
+menu lateral 
+
+Cópia descarada de algum site de tutorial
+
+
+</p>

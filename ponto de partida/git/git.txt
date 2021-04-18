@@ -1,0 +1,55 @@
+git help
+
+clear limpa o shell
+git init = inicia o projeto
+
+Primeiro use um git add para adicionar o nome da pasta que desja salvar no repositório, a pasta pode ter o mesmo nome mas não ser a mesma então use o add para ter certeza
+ 
+git add pasta/path/path/path\arquivo final = adicionar uma nova pasta
+git add . = adiciona a porra toda se o de cima não funcionar
+
+
+git commit .m "comentário" = adicina um ponto na história 
+
+git log = vê os pontos na história do projeto
+
+git status = mostra o status do desenvolvimento no git
+
+git show = mostra as ultimas alterações no projeto
+
+git branch = cria uma ramificação do projeto/ lista as ramificaçõesclear
+git checkout path/path = olha a ramificação que criou e muda de ramificação tipo o cd no windows
+
+
+f2 = sai das linhas verdes do capeta
+
+
+git merge = une a branch na master
+
+git push encapsula o código pra mandar pra um repositório online
+	nesse passo tem que criar um repositório no site e eles
+	te passam dois códigos git remote add origin  git push -u origin master
+
+
+
+git clone = baixa um projeto da net no teu repositório ofline
+	entra no site e clica em CODE
+
+
+
+
+git branch .d <nome> = apaga a branch. nãu escreve o <> pls
+
+
+
+resolvendo conflitos 
+
+ora pra deus pq fds não sou obrigado
+https://www.youtube.com/watch?v=2alg7MQ6_sI 
+25:00
+
+
+git pull = puxa da nuvem 
+
+
+git checkout <sadisagbdoigo312497td9sadio13bv> -- nome do arquivo a restaurar = restaura arquivos a pontos anteriores

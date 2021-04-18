@@ -1,0 +1,6 @@
+tirar os nomes das fotos
+mudar o index file name
+contrlo finde e procura o primeiro show
+troca ele por hide
+
+depois substitua as imagens em data1\images e xablau

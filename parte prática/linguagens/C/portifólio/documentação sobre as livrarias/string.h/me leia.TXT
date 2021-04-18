@@ -1,0 +1,26 @@
+AVISO!!!
+NÃO FUNCINA COM INTEGER
+
+aqui estão exemplos da aplicação das funçoes em c baseado ná livraria <string.h>
+
+as que manupulam caracteres são mais propensas a causar dor de cabeça loco estão .c já que em .cpp são destinadas a c++
+
+resumo:
+
+função
+strrchr= acha uma string a ultima vez que um caractere aparece
+strstr= acha em uma frase onde aquela palávra foi usada pela primeira vez
+memcmp= mede o comprimento de uma string
+memmove= move uma string para o lugar de outra(o valor antigo some)
+memcpy= copia uma string nova para o lugar de uma string antiga ou para uma variável vazia
+strcat= faz uma concatenação entre duas strings adicionando uma exatamente no final da outra
+strncat= faz uma concatenação entre duas strings adicionando uma exatamente no final da outra com a particulariedade de poder decidir quantos caracteres vão ser concatenados 
+
+file
+
+strerror= da uma mensagem de erro igual um monte de outras funções
+
+
+pointer
+memchr= acha uma string a primeira vez que um caractere aparece
+
